@@ -21,9 +21,11 @@ Then
 ```yay -S vscodium-bin mailspring```
 
 ### Fish shell
-```chsh -s /usr/bin/fish
+```
+chsh -s /usr/bin/fish
 curl -L https://get.oh-my.fish | fish
-omf install https://github.com/simnalamburt/shellder```
+omf install https://github.com/simnalamburt/shellder
+```
 
 ### Settings
 
