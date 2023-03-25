@@ -2,32 +2,32 @@
 
 ## Installation Notes
 #### Connect wifi
-`iwctl`
+```iwctl```
 Then
-`station wlan0 connect SSID`
+```station wlan0 connect SSID```
 Then 
-`exit`
+```exit```
 #### Easy installation
-`archinstall`
+```archinstall```
 
 ## After installation
 ### Yay
-`sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
+```sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si```
 
 ### Other packages
 
-`sudo pacman -S aria2 speedtest-cli telegram-desktop kdenlive inkscape virtualbox fish flameshot neofetch gtop kolourpaint gedit autoconf binutils make gcc pkg-config fakeroot libtool automake patch dbeaver tilix x11-ssh-askpass drawing opera chromium spotify-launcher`
+```sudo pacman -S aria2 speedtest-cli telegram-desktop kdenlive inkscape virtualbox fish flameshot neofetch gtop kolourpaint gedit autoconf binutils make gcc pkg-config fakeroot libtool automake patch dbeaver tilix x11-ssh-askpass drawing opera chromium spotify-launcher```
 
-`yay -S vscodium-bin mailspring`
+```yay -S vscodium-bin mailspring```
 
 ### Fish shell
-`chsh -s /usr/bin/fish
+```chsh -s /usr/bin/fish
 curl -L https://get.oh-my.fish | fish
-omf install https://github.com/simnalamburt/shellder`
+omf install https://github.com/simnalamburt/shellder```
 
 ### Settings
 
-`sudo systemctl enable fstrim.timer`
+```sudo systemctl enable fstrim.timer```
 
 ### Auto mount other partitions
 If you have other partitions(E, D etc.). It can be mounted on the startup.
