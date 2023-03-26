@@ -60,5 +60,7 @@ bluetoothd[1048]: src/plugin.c:plugin_init() Failed to init bap plugin
 Run
 ```
 sudo gedit /etc/bluetooth/main.conf
-And change Experimental=true
+And change 
+Experimental=true
+KernelExperimental = true
 ```
