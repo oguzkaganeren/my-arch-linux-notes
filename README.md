@@ -45,3 +45,20 @@ Open your fstab config with the command. You should add codes similar to the fol
 ```
 UUID=b336b98e-d0b5-4254-b6aa-9e66f85b0dfc /run/media/oguz/Files ext4 defaults  0 0
 ```
+
+### Fixes
+Run to see errors
+```
+journalctl -p 3 -b
+```
+To fix
+```
+bluetoothd[1048]: src/plugin.c:plugin_init() Failed to init vcp plugin
+bluetoothd[1048]: src/plugin.c:plugin_init() Failed to init mcp plugin
+bluetoothd[1048]: src/plugin.c:plugin_init() Failed to init bap plugin
+```
+Run
+```
+sudo gedit /etc/bluetooth/main.conf
+And change Experimental=true
+```
