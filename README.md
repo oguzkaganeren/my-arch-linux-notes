@@ -64,3 +64,4 @@ And change
 Experimental=true
 KernelExperimental = true
 ```
+https://wiki.archlinux.org/title/Pacman#Enabling_parallel_downloads
