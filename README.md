@@ -18,7 +18,7 @@ Then
 
 ```sudo pacman -S aria2 speedtest-cli telegram-desktop kdenlive inkscape virtualbox fish flameshot neofetch gtop kolourpaint gedit autoconf binutils make gcc pkg-config fakeroot libtool automake patch dbeaver tilix x11-ssh-askpass drawing opera chromium spotify-launcher sof-firmware```
 
-```yay -S vscodium-bin mailspring```
+```yay -S vscodium-bin mailspring nodejs-commitizen```
 
 ### Fish shell
 ```
